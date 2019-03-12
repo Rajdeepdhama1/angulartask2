@@ -16,7 +16,7 @@ export class AppComponent implements OnInit{
             // you're at the bottom of the page
             this.showLoader= true;
             this.textarray.push(this.textarray2)
-            setTimeout(() => this.showLoader = false, 1000)
+            setTimeout(() => this.showLoader = false, 2000)
         }
     }
     ngOnInit(){}
